@@ -1,0 +1,99 @@
+# Site settings
+baseURL = "https://jaraneo.github.io"
+languageCode = "ko-KR"
+title = "Araneo's Home"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+# Metadata for search engines and social sharing
+name = "스타일리스트 홍준영(araneo)"
+description = "Hair Stylist"
+shareImage = "images/social.jpg"
+twitterHandle = "onepagelove"
+
+# Favicon
+favicon = "favicon.ico"
+
+# Copyright
+copyright = "&copy;2017 Araneo"
+
+# Section - Content
+[params.content]
+name = "Araneo"
+tagline = "Hair Stylist. Designer. Nomad."
+bio = "빗질 한번, 가위질 한번으로<br/>당신을 더 아름답게 표현해주고 싶어요<br/>꾸준히  도와드릴께요<br/>꾸준히 예뻐지세요<br/><br/>더 나은 미래의  당신이 오고있어요"
+
+# Section - Visual
+[params.visual]
+
+# Image
+[params.visual.image]
+enable = true
+file = "images/bg-araneo-lg.jpeg"
+position = "center center"
+
+# Video
+[params.visual.video]
+enable = false
+mute = true
+file = "videos/background.mp4"
+# youtubeId = "dk9uNWPP7EA"
+
+# Links
+#
+# Links List #1
+[[params.links]]
+[params.links.list1]
+heading = "Connect"
+
+[[params.links.list1.link]]
+text = "Blog"
+url = "https://blog.naver.com/mi0n"
+
+[[params.links.list1.link]]
+text = "Email"
+url = "mailto:mi0n@naver.com"
+
+# Links List #2
+[[params.links]]
+[params.links.list2]
+heading = "Social"
+
+[[params.links.list2.link]]
+text = "KakaoTalk"
+url = "#"
+
+[[params.links.list2.link]]
+text = "Instagram"
+url = "#"
+
+[[params.links.list2.link]]
+text = "Twitter"
+url = "#"
+
+# Links List #3
+# [[params.links]]
+# [params.links.list3]
+# heading = "Network"
+
+# [[params.links.list3.link]]
+# text = "Link One"
+# url = "#"
+
+# [[params.links.list3.link]]
+# text = "Link Two"
+# url = "#"
+
+# [[params.links.list3.link]]
+# text = "Link Three"
+# url = "#"
+
+# The original template is released under the Creative Commons Attribution 3.0 License.
+# Please keep the original attribution link when using for your own project.
+# If you'd like to use the template without the attribution, you can check out
+# the license option via the template author's website: https://onepagelove.com/split
