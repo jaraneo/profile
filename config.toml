@@ -4,6 +4,7 @@ languageCode = "ko-KR"
 title = "Araneo's Home"
 theme = "hugo-split-theme"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+publishBranch = "gh-pages"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
