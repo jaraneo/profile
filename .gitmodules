@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = jaraneo.github.io
+	url = git@github.com:jaraneo/jaraneo.github.io.git
+	branch = master

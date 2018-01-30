@@ -5,6 +5,7 @@ title = "Araneo's Home"
 theme = "hugo-split-theme"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 publishBranch = "gh-pages"
+publishdir = "jaraneo.github.io"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -14,8 +15,8 @@ googleAnalytics = ""
 # Metadata for search engines and social sharing
 name = "스타일리스트 홍준영(araneo)"
 description = "Hair Stylist"
-shareImage = "images/social.jpg"
-twitterHandle = "onepagelove"
+shareImage = "images/araneo-share.jpg"
+twitterHandle = ""
 
 # Favicon
 favicon = "favicon.ico"
